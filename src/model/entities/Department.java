@@ -8,7 +8,7 @@ public class Department implements Serializable{
 	implements serializable -> necessário em java pra que os objetos possam ser transformados em sequência de bytes.
 	Se quiser que o objeto seja gravado em arquivo, trafegado em rede, etc.*/
 	
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L; //campo long default exigido pela interface Serializable
 	private Integer id;
 	private String name;
 	
