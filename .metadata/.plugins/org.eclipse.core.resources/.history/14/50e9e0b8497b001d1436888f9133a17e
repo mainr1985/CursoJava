@@ -1,0 +1,9 @@
+package com.meusestudos.projetosboot;
+
+import org.springframework.web.bind.annotation.RestController;
+
+//pra dizer que é um controlador Rest
+@RestController
+public class UserResource {
+
+}

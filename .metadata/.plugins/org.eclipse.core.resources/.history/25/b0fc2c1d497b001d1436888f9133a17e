@@ -1,0 +1,5 @@
+package com.meusestudos.projetosboot.entities;
+
+public class User {
+
+}
